@@ -26,13 +26,4 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(stringResource);
         imageView.setImageBitmap(imageResource);
     }
-
-    public void changeText(View view){
-        TextView nickname = (TextView)findViewById(R.id.nickname);
-        nickname.setText("Artem Novigradov");
-        Log.e(
-                TAG, "Nickname changed"
-        );
-    }
-
 }
