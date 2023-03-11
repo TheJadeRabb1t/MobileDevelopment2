@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Работа с Aсtivity и верстка</string>
-    <string name="added_string">I am just a string value</string>
+    <string name="entering_text">Введите свои данные:</string>
+    <string name="email">Email</string>
+    <string name="pwd">Пароль</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="change_photo">Изменить фото профиля</string>
+    <string name="your_email">Ваш Email: </string>
+    <string name="your_nickname">Ваш никнейм: </string>
+    <string name="change_nickname">Изменить никнейм</string>
 </resources>

@@ -21,22 +21,37 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Введите свои данные:" />
+            android:text="@string/entering_text" />
 
         <EditText
+            android:id="@+id/editTextTextEmailAddress2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email" />
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"/>
 
         <EditText
+            android:id="@+id/editTextTextPassword3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Пароль" />
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/pwd"/>
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/confirm_password"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Зарегистрироваться" />
+            android:text="Зарегистрироваться"
+            android:backgroundTint="#262c2c"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
