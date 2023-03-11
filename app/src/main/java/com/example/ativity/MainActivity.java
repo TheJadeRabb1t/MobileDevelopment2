@@ -32,18 +32,14 @@ public class MainActivity extends AppCompatActivity {
         change_nickname_btn.setOnClickListener(view -> {
             TextView nickname = findViewById(R.id.nickname);
             nickname.setText("Nikolay Fadeev");
-            Log.e(
-                    TAG, "Nickname changed (onClickListener)"
-            );
+            Log.e(TAG, "Nickname changed (onClickListener)");
         });
     }
 
     public void changeText(View view){
         TextView nickname = findViewById(R.id.nickname);
         nickname.setText("Artem Novigradov");
-        Log.e(
-                TAG, "Nickname changed (onClick)"
-        );
+        Log.e(TAG, "Nickname changed (onClick)");
     }
 
 }
