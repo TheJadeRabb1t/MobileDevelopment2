@@ -36,7 +36,7 @@ public class SecondActivity extends AppCompatActivity {
                 EditText password = findViewById(R.id.editTextPassword);
                 intent.putExtra("mail", mail.getText());
                 intent.putExtra("password", password.getText());
-                startActivity(intent);
+                mStartForResult.launch(intent);
             }
         });
     }
